@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>เรซูเม่ - นายธีรภัทร จิตรโคตร</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.7;
+      background-color: #f4f6f9;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+      display: flex;
+      align-items: flex-start;
+      gap: 30px;
+      margin-bottom: 30px;
+      border-bottom: 3px solid #3498db;
+      padding-bottom: 20px;
+    }
+
+    .profile-pic img {
+      width: 150px;
+      height: 180px;
+      object-fit: cover;
+      border: 3px solid #3498db;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .header-text h1 {
+      color: #2980b9;
+      margin: 0 0 10px 0;
+      font-size: 2.3em;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+      color: #555;
+      font-size: 0.95em;
+    }
+
+    .highlight {
+      color: #e67e22;
+      font-weight: bold;
+    }
+
+    h2 {
+      color: #2c3e50;
+      border-left: 6px solid #3498db;
+      padding-left: 12px;
+      margin-top: 25px;
+      font-size: 1.6em;
+    }
+
+    h3 {
+      color: #34495e;
+      margin-bottom: 8px;
+      font-size: 1.2em;
+    }
+
+    .objective {
+      background-color: #ebf5fb;
+      border-left: 4px solid #3498db;
+      padding: 15px 20px;
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      color: #2c3e50;
+    }
+
+    .education-item .degree {
+      font-weight: bold;
+      color: #2c3e50;
+    }
+
+    .education-item .school {
+      font-style: italic;
+      color: #16a085;
+    }
+
+    .education-item .date {
+      color: #7f8c8d;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .profile-pic img {
+        width: 130px;
+        height: 160px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- ส่วนหัว -->
+    <header>
+      <!-- รูปถ่าย -->
+      <div class="profile-pic">
+        <img src="myphototr.jpg" alt="นายธีรภัทร จิตรโคตร">
+      </div>
+
+      <!-- ข้อมูลติดต่อ -->
+      <div class="header-text">
+        <h1>นายธีรภัทร จิตรโคตร</h1>
+        <div class="contact-info">
+          <p><strong>Email:</strong> <span class="highlight">s68319010019@kktech.ac.th</span></p>
+          <p><strong>โทร:</strong> <span class="highlight">065-897-2748</span></p>
+          <p><strong>ที่อยู่:</strong> 23/154 ซอยศรีจันทร์ 17, ต.ในเมือง, อ.เมืองขอนแก่น, ขอนแก่น 40000</p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/trxphx18" target="_blank" class="highlight">github.com/trxphx18</a></p>
+        </div>
+      </div>
+    </header>
+
+    <!-- วัตถุประสงค์ -->
+    <div class="section">
+      <h2>วัตถุประสงค์ในการทำงาน</h2>
+      <div class="objective">
+        นักศึกษาชั้นปีที่ 1/3 สาขาเทคโนโลยีสารสนเทศ วิทยาลัยเทคนิคขอนแก่น ที่มีความกระตือรือร้นในการเรียนรู้และพัฒนาทักษะในสาขาอาชีพ กำลังมองหาโอกาสฝึกงานหรือทำงานพาร์ทไทม์เพื่อประยุกต์ใช้ความรู้ที่ได้จากการเรียน และสร้างประสบการณ์การทำงานที่มีความหมาย
+      </div>
+    </div>
+
+    <!-- การศึกษา -->
+    <div class="section">
+      <h2>การศึกษา</h2>
+
+      <div class="education-item">
+        <div class="degree">ปวส. สาขาเทคโนโลยีสารสนเทศ</div>
+        <div class="school">วิทยาลัยเทคนิคขอนแก่น</div>
+        <div class="date">พฤษภาคม 2568 – พฤศจิกายน 2570 (คาดว่าจะจบ)</div>
+        <p><strong>เกรดเฉลี่ย:</strong> *.** / 4.00</p>
+      </div>
+
+      <div class="education-item">
+        <div class="degree">มัธยมศึกษาตอนปลาย</div>
+        <div class="school">โรงเรียนภูเขียว</div>
+        <div class="date">2557 – 2563</div>
+        <p><strong>เกรดเฉลี่ย:</strong> 2.50 / 4.00</p>
+      </div>
+    </div>
+
+    <!-- ทักษะ -->
+    <div class="section">
+      <h2>ทักษะและความสามารถ</h2>
+
+      <div class="skill-category">
+        <h3>ทักษะด้านเทคนิค</h3>
+        <ul>
+          <li><strong>ภาษาโปรแกรม:</strong> C++, HTML</li>
+          <li><strong>ซอฟต์แวร์:</strong> Microsoft Office, Adobe Creative Suite</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>ทักษะด้านภาษา</h3>
+        <ul>
+          <li><strong>ภาษาไทย:</strong> เจ้าของภาษา</li>
+          <li><strong>ภาษาอังกฤษ:</strong> ระดับมัธยมศึกษา - มหาวิทยาลัยตอนต้น</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>ทักษะอื่นๆ</h3>
+        <ul>
+          <li>การทำงานเป็นทีม</li>
+          <li>การแก้ไขปัญหา</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ความสนใจ -->
+    <div class="section">
+      <h2>ความสนใจส่วนตัว</h2>
+      <ul>
+        <li>ฟังเพลง</li>
+        <li>ทำความสะอาดห้อง</li>
+        <li>อ่านบทความเกี่ยวกับเทคโนโลยี</li>
+      </ul>
+    </div>
+
+    <footer>
+      สร้างโดย นายธีรภัทร จิตรโคตร | ใช้สำหรับสมัครงานและฝึกงาน
+    </footer>
+
+  </div>
+</body>
+</html>
